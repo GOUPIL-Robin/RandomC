@@ -1,21 +1,45 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.so
 *.exe
-*.out
-*.app
+*.run
+*.lib
+*.dll
+*.log
+#*#
+*~
+
+### Build files
+Makefile
+makefile
+*.target.mk
+*.Makefile
+*.make
+out/
+obj/
+
+### Project linking
+ThirdParty/bin/*
+ThirdParty/include/*
+
+### IDE files
+# KDE 4
+.kdev4/
+*.kdev4
+
+# Codeblocks
+*.cbp
+*.workspace
+*.depend
+*.layout
+
+# VS2013
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.idb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.ilk
